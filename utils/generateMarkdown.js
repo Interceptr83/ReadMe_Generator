@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `\n* [License](#license)\n`;
+    return `* [License](#license)`;
   }
   return '';
 }
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
   * [Tests](#tests)
 
-  * [License](#license)
+  ${renderLicenseLink(data.license)}
 
   * [Contributors](#contributors)
 
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   Run the following commands to install any necessary dependencies:
 
   \`\`\`
-  ${data.installation}
+  ${data.install}
   \`\`\`
 
   ## User Story
@@ -74,7 +74,6 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
-  ${renderLicenseLink(data.license)}
   
   ## Contributors
 

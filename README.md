@@ -2,7 +2,7 @@
   
   ## Application Description
 
-  This application will dynamically generate a ReadMe file for an application based on input from the user
+  This Application will Dynamically create ReadMe.md file for your Application based on the user input
 
   ## Table of Contents
 
@@ -25,12 +25,12 @@
   Run the following commands to install any necessary dependencies:
 
   ```
-  undefined
+  npm i
   ```
 
   ## User Story
 
-  The user will answer a series of basic questions regarding their intended application. This will then dynamically create an appropriately formatted ReadMe file using the data they input.
+  The user will answer a series of questions and then use these to populate a properly formatted ReadMe file for their applicaton
 
   ## Tests
 
@@ -47,16 +47,13 @@
 
 This project is licensed under the MIT license.
   
-* [License](#license)
-
-  
   ## Contributors
 
   Dustin Smith
 
   ## Questions
 
-  Any questions regarding this repo can be directed to dustinsmith1983@gmail.com.
-  View more work from this developer at [interceptr83](https://github.com/interceptr83/)
+  Any questions regarding this repo can be directed to DustinSmith1983@gmail.com.
+  View more work from this developer at [Interceptr83](https://github.com/Interceptr83/)
 
   
