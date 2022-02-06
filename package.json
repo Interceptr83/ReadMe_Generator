@@ -1,0 +1,24 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Interceptr83/ReadMe_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Interceptr83/ReadMe_Generator/issues"
+  },
+  "homepage": "https://github.com/Interceptr83/ReadMe_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
